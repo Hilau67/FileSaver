@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox Name="from" HorizontalAlignment="Left" Height="23" Margin="150,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="to" HorizontalAlignment="Left" Height="23" Margin="450,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="From" HorizontalAlignment="Left" Margin="108,36,0,0" VerticalAlignment="Top"/>
+        <Label Content="To" HorizontalAlignment="Left" Margin="423,36,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.911,0.583"/>
+        <Button Content="Copy" HorizontalAlignment="Left" Margin="348,173,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
     </Grid>
 </Window>
